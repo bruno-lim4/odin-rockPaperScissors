@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Rock, Paper, Scissors!</title>
 </head>
 <body>
-    
+
+    <div class="cards">
+        <h1>YOU <span id="you">0</span> x <span id="pc">0</span> COMPUTER</h1>
+        <button data-choice="rock" class="card">
+            <img data-choice="rock" src="images/rock.svg" alt="Rock">
+            <p data-choice="rock">Rock</p>
+        </button>
+        <button data-choice="paper" class="card">
+            <img data-choice="paper" src="images/paper.svg" alt="Paper">
+            <p data-choice="paper">Paper</p>
+        </button>
+        <button data-choice="scissors" class="card">
+            <img data-choice="scissors" src="images/scissors.svg" alt="Scissor">
+            <p data-choice="scissors">Scissors</p>
+        </button>
+    </div>
+
 
     <script src="script.js"></script>
 </body>

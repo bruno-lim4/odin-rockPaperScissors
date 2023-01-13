@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    text-align: center;
+}
+
+.cards h1 {
+    margin-bottom: 30px;
+}
+
+button.card {
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition: transform 0.07s;
+}
+
+button.card:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+}
+
+.message {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.result {
+    font-size: 30px;
+    font-weight: bold;
+}
